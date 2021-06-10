@@ -4,6 +4,7 @@
 #
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+# @see https://gsl201600.github.io/2019/10/16/iOS%E5%8F%91%E5%B8%83CocoaPods%E7%A7%81%E6%9C%89%E5%BA%93/
 #
 
 Pod::Spec.new do |s|
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-多种UICollectionViewLayout布局方式
+                        多种UICollectionViewLayout布局方式
                        DESC
 
   s.homepage         = 'https://github.com/woodjobber/WaterfallKit'
@@ -37,6 +38,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES'}
+  
+  #s.static_framework = true
   
   # s.resource_bundles = {
   #   'WaterfallKit' => ['WaterfallKit/Assets/*.png']
