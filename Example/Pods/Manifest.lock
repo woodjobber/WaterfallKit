@@ -1,16 +1,21 @@
 PODS:
+  - SnapKit (5.0.1)
   - WaterfallKit (0.0.3)
 
 DEPENDENCIES:
+  - SnapKit
   - WaterfallKit (~> 0.0.3)
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SnapKit
   https://github.com/woodjobber/WJSpecs.git:
     - WaterfallKit
 
 SPEC CHECKSUMS:
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   WaterfallKit: 1e813e78aca2c8f725bd1773fb2b6bc9544cff15
 
-PODFILE CHECKSUM: 5412ff867a2a8503a1d77038ef8f2f4353198b61
+PODFILE CHECKSUM: e34d1c6f0873c0fe7697a755b8dccf449dd5883a
 
 COCOAPODS: 1.10.1

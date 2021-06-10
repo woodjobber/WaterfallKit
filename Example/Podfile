@@ -8,4 +8,5 @@ platform :ios, '10.0'
 target 'WaterfallKit_Example' do
 #  pod 'WaterfallKit', :path => '../'
   pod 'WaterfallKit', '~> 0.0.3'
+  pod 'SnapKit'
 end
