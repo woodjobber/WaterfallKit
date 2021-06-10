@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WaterfallKit'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = '自定义UICollectionViewLayout布局'
 
 # This description is used to generate tags and improve search results.
@@ -28,14 +28,16 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/woodjobber/WaterfallKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
-  s.ios.deployment_target = '9.0'
-
+  s.platform     = :ios, '10.0'
+  
   s.source_files = 'WaterfallKit/Classes/**/*'
   
   s.swift_version = "5.0"
   
   s.requires_arc = true
-    
+  
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES'}
+  
   # s.resource_bundles = {
   #   'WaterfallKit' => ['WaterfallKit/Assets/*.png']
   # }
