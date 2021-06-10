@@ -15,7 +15,7 @@
 		94E37E00F030A8EAD83EE04A2A9B4263 /* Pods-WaterfallKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CF98B2D1919F289D6604891019A1F4 /* Pods-WaterfallKit_Tests-dummy.m */; };
 		9AF6E6332671A2EE00E86B15 /* WaterfallCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF6E6312671A2EE00E86B15 /* WaterfallCollectionViewLayout.swift */; };
 		9AF6E6342671A2EE00E86B15 /* PinVisibleCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF6E6322671A2EE00E86B15 /* PinVisibleCollectionViewLayout.swift */; };
-		9AF6E6362671A38B00E86B15 /* StickyColumnsCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF6E6352671A38B00E86B15 /* StickyColumnsCollectionViewLayout.swift */; };
+		9AF6E6382671AAAC00E86B15 /* StickyColumnsCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF6E6372671AAAC00E86B15 /* StickyColumnsCollectionViewLayout.swift */; };
 		AE418FA8E02FDB67426A0E764FEFDD38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BD508ABAAE9A6B7781728B71C2F250E8 /* WaterfallKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AC24C295479453A2A82C1B5E3D0F8F /* WaterfallKit-dummy.m */; };
 		DC92E5B0354AE0D0E4A2D152E3F85AE2 /* Pods-WaterfallKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A5D015FD7A26B10458F29DBA632D49 /* Pods-WaterfallKit_Example-dummy.m */; };
@@ -61,7 +61,7 @@
 		9625422B98D41F9E6B9753C095526927 /* Pods-WaterfallKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WaterfallKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9AF6E6312671A2EE00E86B15 /* WaterfallCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WaterfallCollectionViewLayout.swift; path = WaterfallKit/Classes/WaterfallCollectionViewLayout.swift; sourceTree = "<group>"; };
 		9AF6E6322671A2EE00E86B15 /* PinVisibleCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinVisibleCollectionViewLayout.swift; path = WaterfallKit/Classes/PinVisibleCollectionViewLayout.swift; sourceTree = "<group>"; };
-		9AF6E6352671A38B00E86B15 /* StickyColumnsCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyColumnsCollectionViewLayout.swift; sourceTree = "<group>"; };
+		9AF6E6372671AAAC00E86B15 /* StickyColumnsCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StickyColumnsCollectionViewLayout.swift; path = WaterfallKit/Classes/StickyColumnsCollectionViewLayout.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD112F8A95398735419B2E4C79A9724E /* Pods-WaterfallKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WaterfallKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B95D0F522EC3E3EDAF3DB6032CB34856 /* Pods-WaterfallKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WaterfallKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -123,9 +123,9 @@
 		6515AA5C4D6242E5614EA9C2381A3586 /* WaterfallKit */ = {
 			isa = PBXGroup;
 			children = (
+				9AF6E6372671AAAC00E86B15 /* StickyColumnsCollectionViewLayout.swift */,
 				9AF6E6322671A2EE00E86B15 /* PinVisibleCollectionViewLayout.swift */,
 				9AF6E6312671A2EE00E86B15 /* WaterfallCollectionViewLayout.swift */,
-				9AF6E6352671A38B00E86B15 /* StickyColumnsCollectionViewLayout.swift */,
 				9F322F3D4A184CCC5566B571BD03B851 /* Pod */,
 				B82888A56A9F0A58ECDED28CE8D7D8F1 /* Support Files */,
 			);
@@ -397,7 +397,7 @@
 				9AF6E6342671A2EE00E86B15 /* PinVisibleCollectionViewLayout.swift in Sources */,
 				DC92E5B0354AE0D0E4A2D152E3F85AE2 /* Pods-WaterfallKit_Example-dummy.m in Sources */,
 				9AF6E6332671A2EE00E86B15 /* WaterfallCollectionViewLayout.swift in Sources */,
-				9AF6E6362671A38B00E86B15 /* StickyColumnsCollectionViewLayout.swift in Sources */,
+				9AF6E6382671AAAC00E86B15 /* StickyColumnsCollectionViewLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
