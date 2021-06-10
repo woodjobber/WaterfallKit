@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   
   s.source_files = 'WaterfallKit/Classes/**/*'
   
-  s.swift_version = "5.0"
+  s.swift_version = '5.0'
   
   s.requires_arc = true
   
