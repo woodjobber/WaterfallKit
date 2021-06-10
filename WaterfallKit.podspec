@@ -35,9 +35,7 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
   
   s.requires_arc = true
-  
-  s.vendored_frameworks = "WaterfallKit.framework"
-  
+    
   # s.resource_bundles = {
   #   'WaterfallKit' => ['WaterfallKit/Assets/*.png']
   # }
