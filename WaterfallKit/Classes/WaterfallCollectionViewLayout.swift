@@ -5,6 +5,7 @@
 //  Created by chengbin on 2020/5/19.
 //  Copyright © 2020 Hik inc. All rights reserved.
 //
+// 瀑布流
 // swiftlint:disable identifier_name type_name type_body_length file_length
 import UIKit
 private func < <T: Comparable>(lhs: T?, rhs: T?) -> Bool {

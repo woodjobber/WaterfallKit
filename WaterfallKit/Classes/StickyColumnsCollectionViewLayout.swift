@@ -6,6 +6,7 @@
 //
 
 import UIKit
+/// 当向下拉的时候，固定顶部或者顶部拉伸
 
 @objc public protocol StickyColumnsCollectionViewDelegateLayout: PinVisibleCollectionViewDelegateLayout {}
 /// 固定第0个section下的item, 第0个SectionHeader,SectionFooter 的高度请设置0，
