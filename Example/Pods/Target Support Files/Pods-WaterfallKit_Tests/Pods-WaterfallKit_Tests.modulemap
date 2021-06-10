@@ -1,0 +1,6 @@
+framework module Pods_WaterfallKit_Tests {
+  umbrella header "Pods-WaterfallKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

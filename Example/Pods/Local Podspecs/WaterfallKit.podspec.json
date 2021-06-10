@@ -1,0 +1,22 @@
+{
+  "name": "WaterfallKit",
+  "version": "0.1.0",
+  "summary": "A short description of WaterfallKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/woodjobber/WaterfallKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "woodjobber": "woodjobber@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/woodjobber/WaterfallKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WaterfallKit/Classes/**/*"
+}

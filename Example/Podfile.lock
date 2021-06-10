@@ -1,0 +1,16 @@
+PODS:
+  - WaterfallKit (0.1.0)
+
+DEPENDENCIES:
+  - WaterfallKit (from `../`)
+
+EXTERNAL SOURCES:
+  WaterfallKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WaterfallKit: ac78b8b7f51a99d0a461ddb6a693a631c4777ea9
+
+PODFILE CHECKSUM: 94be9fd5cec97d08fc8f3f5902fe7fdfb3299805
+
+COCOAPODS: 1.10.1
