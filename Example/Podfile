@@ -1,13 +1,11 @@
 use_frameworks!
 
-platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/woodjobber/WJSpecs.git'
+
+platform :ios, '10.0'
 
 target 'WaterfallKit_Example' do
-  pod 'WaterfallKit', :path => '../'
-
-  target 'WaterfallKit_Tests' do
-    inherit! :search_paths
-
-    
-  end
+#  pod 'WaterfallKit', :path => '../'
+  pod 'WaterfallKit', '~> 0.0.3'
 end

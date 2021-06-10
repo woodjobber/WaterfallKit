@@ -1,16 +1,16 @@
 PODS:
-  - WaterfallKit (0.1.0)
+  - WaterfallKit (0.0.3)
 
 DEPENDENCIES:
-  - WaterfallKit (from `../`)
+  - WaterfallKit (~> 0.0.3)
 
-EXTERNAL SOURCES:
-  WaterfallKit:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/woodjobber/WJSpecs.git:
+    - WaterfallKit
 
 SPEC CHECKSUMS:
-  WaterfallKit: ac78b8b7f51a99d0a461ddb6a693a631c4777ea9
+  WaterfallKit: 1e813e78aca2c8f725bd1773fb2b6bc9544cff15
 
-PODFILE CHECKSUM: 94be9fd5cec97d08fc8f3f5902fe7fdfb3299805
+PODFILE CHECKSUM: 5412ff867a2a8503a1d77038ef8f2f4353198b61
 
 COCOAPODS: 1.10.1
