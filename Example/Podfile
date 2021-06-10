@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WaterfallKit_Example' do
+  pod 'WaterfallKit', :path => '../'
+
+  target 'WaterfallKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
